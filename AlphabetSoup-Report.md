@@ -14,31 +14,31 @@ The model is built using the dependent variable "y" as 'IS_SUCCESSFUL', while th
 ### Data Preprocessing
 #### What variable(s) are the target(s) for your model?
        
-        The target variable is 'IS_SUCCESSFUL' as this is a binary variable that indicates whether an organization was successful or not. '0' represents not successful, '1' represents successful.
+ - The target variable is 'IS_SUCCESSFUL' as this is a binary variable that indicates whether an organization was successful or not. '0' represents not successful, '1' represents successful.
 
 #### What variable(s) are the features for your model?
 
-       The feature variables are all of the other information found within the dataset, except the 'EIN' and 'NAME'. Includes 'APPLICATION TYPE', 'AFFILIATION", 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', 'ASK_AMT')
+ - The feature variables are all of the other information found within the dataset, except the 'EIN' and 'NAME'. Includes 'APPLICATION TYPE', 'AFFILIATION", 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', 'ASK_AMT')
 
 #### What variable(s) should be removed from the input data because they are neither targets nor features?
 
-       The variables 'EIN' and 'NAME' were removed as they are neither targets nor features. 
+ - The variables 'EIN' and 'NAME' were removed as they are neither targets nor features. 
 
 ### Compiling, Training, and Evaluating the Model
 #### How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-       Input Layer: The model’s input layer received all the features after one-hot encoding and scaling.
-       First Hidden Layer: 100 neurons with ReLU activation function.
-       Second Hidden Layer: 30 neurons with ReLU activation function.
-       Third Hidden Layer: 30 neurons with ReLU activation function.
-       Output Layer: 1 neuron with Sigmoid activation function for binary classification.
+ - Input Layer: The model’s input layer received all the features after one-hot encoding and scaling.
+ - First Hidden Layer: 100 neurons with ReLU activation function.
+ - Second Hidden Layer: 30 neurons with ReLU activation function.
+ - Third Hidden Layer: 30 neurons with ReLU activation function.
+ - Output Layer: 1 neuron with Sigmoid activation function for binary classification.
 
 #### Were you able to achieve the target model performance?
 
-       Over 200 epochs, we were able to achieve a model with about 80% accuracy at predicting successful campaigns if the following conditions are true: 
-              -      your name appears more than 5 times, and
-              -      your application type is either: T3, T4, T6, T5, T19, T8, T7, T10, and
-              -      you have more than 1000 counts in your classification,
+ - Over 200 epochs, we were able to achieve a model with about 80% accuracy at predicting successful campaigns if the following conditions are true:
+    - your name appears more than 5 times, and
+    - your application type is either: T3, T4, T6, T5, T19, T8, T7, T10, and
+    - you have more than 1000 counts in your classification,
 
 #### What steps did you take in your attempts to increase model performance?
 
