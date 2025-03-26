@@ -48,7 +48,6 @@ The model is built using the dependent variable "y" as 'IS_SUCCESSFUL', while th
     - Processed categorical variables to group rare occurrences into an "Other" category to reduce noise.
     - Adjusted the number of neurons in each hidden layer
     - Experimented with adding and removing hidden layers
-    - Tried different activation functions in the hidden layers and adjusted the number of epochs.
     - Adding additional epochs to give model more chances to increase accuracy
     - Compared with Random Forest model to compare accuracy (random forest was only 78% accurate)
 
