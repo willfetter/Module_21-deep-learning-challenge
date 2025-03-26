@@ -36,9 +36,9 @@ The model is built using the dependent variable "y" as 'IS_SUCCESSFUL', while th
 #### Were you able to achieve the target model performance?
 
  - Yes, the model was able to acheive greater than the target accuracy of 75%. By running 200 epochs, we were able to achieve a model with about 80% accuracy at predicting successful campaigns if the following conditions are true:
-    - your name appears more than 5 times, and
-    - your application type is either: T3, T4, T6, T5, T19, T8, T7, T10, and
-    - you have more than 1000 counts in your classification.
+    - The name appears more than 5 times, and
+    - The application type is either: T3, T4, T6, T5, T19, T8, T7, T10, and
+    - There are more than 1000 counts in your classification.
   
 
 #### What steps did you take in your attempts to increase model performance?
